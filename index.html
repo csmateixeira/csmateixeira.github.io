@@ -1,21 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GitHub Projects Page</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="resources/jumbotron.css">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
 
-<h1>Hello, world!</h1>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">csmateixeira: GitHub Projects</a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>My GitHub Projects</h1>
+        <p>This is a central web page for all my Git projects. Click the categories below to see more.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">See all projects »</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Coursera Projects</h2>
+            <p>Projects done as part of <a href="https://www.coursera.org/" target="_blank">Coursera.org</a> courses. </p>
+            <p><a class="btn btn-default" href="#" role="button">View »</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Samples & Tutorials</h2>
+            <p>Sample Apps and generic tutorials for various frameworks. </p>
+            <p><a class="btn btn-default" href="#" role="button">View »</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Other</h2>
+            <p>Other personal projects.</p>
+            <p><a class="btn btn-default" href="#" role="button">View »</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>© Company 2014</p>
+    </footer>
+</div> <!-- /container -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="resources/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 </html>
